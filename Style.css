@@ -3,6 +3,7 @@
     --preto:#141414 ;
     --branco:#ffffff;
     --verde:#1ed760;
+    --cinza:#919496;
 }
 
 *{
@@ -20,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    font-size: 30px;
+   
    
     
 
@@ -37,6 +38,11 @@ nav {
 
 margin-right: 120px;
 
+
+}
+
+nav ul{
+    display: flex;
 }
 
 
@@ -44,6 +50,7 @@ a{
     color: var(--branco);   
     text-decoration: none;
     padding-right: 50px;
+    font-size: 30px;
    }
    
 a:hover{
@@ -65,7 +72,7 @@ footer{
 
     height: 600px;
     background-color: var(--preto);
-    padding: 50px;
+    padding-top: 80px;
     display: flex;
 }
 
@@ -75,5 +82,68 @@ footer{
 
 .footerLinks{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
+}
+
+
+
+
+ul {
+    list-style-type: none;
+}
+li {
+
+    color: var(--branco);
+}
+.comunidades li, .linksUteis li, .empresas li{
+
+    margin-top:30px;
+    margin-left:50px;
+    font-size: 30px;
+    color:var(--cinza);
+}
+
+
+
+.botton{
+
+    padding-top:50px;
+    height: 120px;
+    background-color:var(--preto);
+    display: flex;
+    justify-content: space-between; 
+   
+    
+}
+.botton ul {
+    display: flex;
+    margin-left: 130px;
+    
+   
+}
+.botton li a {
+    font-size: 20px;
+    color: var(--cinza);
+
+}
+.botton li a:hover{
+   
+    color:var(--verde);
+
+}
+#ass{
+    color: var(--cinza);
+    margin-right: 120px;
+}
+
+.redesSociais{
+   
+   background-color: red;
+   width: 300px;
+}
+
+i.fa{
+    color: white;
+    font-size:70px;
+    
 }
